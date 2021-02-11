@@ -1,6 +1,10 @@
 # TAS⛧BOT
 Discord bot for retrieving and displaying The Acacia Strain lyrics built using nodejs.
 
+## Requirements
+- node >= v12.18.4
+- npm >= 6.14.6
+
 ## Add To Server and Run Locally
 I will assume you know how to create a discord application/bot here: https://discord.com/developers/applications
 1. Create a new application AND bot under your discord developer account.
