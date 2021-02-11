@@ -1,0 +1,17 @@
+{
+  "name": "tasbot",
+  "version": "1.0.0",
+  "description": "Discord bot that displays random lyrics from the band The Acacia Strain",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "author": "brineryte",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  }
+}
