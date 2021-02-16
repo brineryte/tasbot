@@ -1,3 +1,6 @@
+/*
+    Main bot setup/command input program
+*/
 require("dotenv").config()
 const Discord = require('discord.js');
 
