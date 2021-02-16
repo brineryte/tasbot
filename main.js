@@ -37,5 +37,4 @@ client.on('message', message => {
     }
 })
 
-
 client.login(process.env.TAS_BOT_TOKEN);
