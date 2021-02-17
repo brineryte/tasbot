@@ -1,4 +1,3 @@
-const { randomInt } = require('crypto');
 const fs = require('fs');
 
 module.exports = {
@@ -10,7 +9,7 @@ module.exports = {
 
         files = fs.readdirSync('./lyrics');
 
-        files.forEach( (file) => {
+        files.forEach((file) => {
             var contents = fs.readFileSync('./lyrics/' + file, 'utf8');
             albumDict.push(JSON.parse(contents));
         });
